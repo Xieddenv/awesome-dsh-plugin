@@ -1,0 +1,6 @@
+url: https://github.com/Xieddenv/dsh-brain-kit
+name: Xieddenv/dsh-brain-kit
+category: security
+description:
+  en: 'Graded file writes for knowledge-base docs: probes real capabilities at runtime (L0 read-only / L1 workspace-only / L2 full), refuses to write in L1 and returns a ready-to-paste block instead, gates every path through raw-string traversal checks plus realpath so junction escapes are caught, and backs up, byte-verifies and rolls back each L2 write.'
+  zh: '给知识库文档用的分级写入工具：运行期探测真实能力（L0 只读 / L1 仅工作区 / L2 全权），L1 完全不落盘而是返回可直接复制的替换内容；路径过两道闸（原始串穿越检查 + realpath 解析，junction 逃逸也拦得住）；L2 写入前备份、写完逐字节校验、不一致自动回滚。'
